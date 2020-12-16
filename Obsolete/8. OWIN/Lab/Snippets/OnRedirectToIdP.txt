@@ -1,0 +1,9 @@
+        private async Task OnRedirectToIdP(RedirectToIdentityProviderNotification<OpenIdConnectMessage, OpenIdConnectAuthenticationOptions> ctx)
+        {
+            var uri = ctx.Request.Uri;
+            var url = String.Format("{0}://{1}/", uri.Scheme, uri.Authority);
+            ctx.ProtocolMessage.RedirectUri = url;
+            ctx.ProtocolMessage.PostLogoutRedirectUri = url;
+            ctx.ProtocolMessage.Parameters.Add("prompt", "consent");
+            await Task.FromResult(0);
+        }

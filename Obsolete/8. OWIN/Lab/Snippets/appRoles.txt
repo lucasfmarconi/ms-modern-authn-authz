@@ -1,0 +1,24 @@
+"appRoles": []
+With
+  "appRoles": [
+    {
+      "allowedMemberTypes": [
+        "User"
+      ],
+      "description": "Admin role",
+      "displayName": "Admin",
+      "id": "02a7b784-41a8-404d-a426-589c876904e8",
+      "isEnabled": true,
+      "value": "admin"
+    },
+    {
+      "allowedMemberTypes": [
+        "User"
+      ],
+      "description": "Clerk role",
+      "displayName": "Clerk",
+      "id": "92731328-5625-4a2d-b9cf-4e7a51a1f793",
+      "isEnabled": true,
+      "value": "clerk"
+    }
+  ]

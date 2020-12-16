@@ -1,0 +1,7 @@
+        public async Task<ActionResult> About()
+        {
+            var client = new HttpClient();
+            var res = await client.GetStringAsync("https://localhost:<webapi port no>/api/values");
+            Response.Write(res);
+            return null;
+        }

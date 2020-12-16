@@ -1,0 +1,15 @@
+Tenant: modernauthn.onmicrosoft.com
+
+Confidential client:
+App id: 1c635c96-739f-4a45-8020-0ee6ba133681
+Secret: foWz-8aGxcD0qGC@Z5qkdx-?ipLoKFF5
+ReplyUri registered for this app is: https://jwt.ms/
+
+Resource id: https://graph.windows.net
+
+User:
+user1@modernauthn.onmicrosoft.com
+M0dern@uth
+
+user4@modernauthn.onmicrosoft.com
+Phoenix04

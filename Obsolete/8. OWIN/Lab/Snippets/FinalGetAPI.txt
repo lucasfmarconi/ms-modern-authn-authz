@@ -1,0 +1,4 @@
+        public Task<string> Get()
+        {
+            return Task.FromResult(ClaimsPrincipal.Current.FindFirst(ClaimTypes.Name).Value);
+        }
